@@ -1,0 +1,455 @@
+/* Navbar */
+*{
+    box-sizing: border-box
+}
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+}
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/programming.jpg);
+    background-size: cover;
+    height: 540px;
+    margin-top: -150px;
+    text-align: center;
+    position: relative;
+    
+}
+.jumbotron .container{
+    position: relative;
+    z-index: 1;
+    top: 106px;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+
+}
+.jumbotron .display-4{
+    margin-top: auto;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 40px;
+    top: 50%;
+    bottom: 50%;
+}
+.jumbotron .display-4 span{
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    
+
+}
+
+/* Info Panel */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+    z-index: 1;
+    padding: 30px;
+    
+    
+}
+.info-panel img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info-panel p{
+    font-size: 14px;
+    color: #ACACAC;
+    margin-top: -5px;
+    font-weight: 200;
+}
+.info-tengah{
+    /* fix */
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    /* fix */
+    margin-left: 0; 
+    
+}
+.info-panel h1{
+ font-size: 60px;
+ 
+}
+
+/* Workingspace */
+
+.workingspace{
+    margin-top: 120px;
+    text-align: center;
+}
+.workingspace img{
+    border-radius: 20px;
+}
+.workingspace h3{
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.workingspace h3 span{
+    font-weight: 500;
+}
+.workingspace p{
+    font-size: 18px;
+    color:#ACACAC;
+    font-weight: 200;
+    margin: 30px 0;
+    text-align: center;
+
+}
+.workingspace-tengah{
+    /* fix */
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    /* fix */
+    margin-left: 0; 
+    
+}
+.workingspace .btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* my work */
+.experience{
+    margin-top: 60px;
+}
+.experience h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.experience .carousel{
+    width: 100%;
+   /* height: 217px;*/
+    margin: 5px auto;
+    padding: 5px;
+}
+.experience .carousel img{
+    width: 100%;
+    height: 100%/*200px*/;
+    margin: 20px auto;
+    border-radius: 5px; 
+}
+.carousel .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px
+
+}
+.experience .carousel a{
+    color: white;
+    font-size: 10px;
+    margin-top: -10px;
+}
+.experience .carousel-caption h5{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.carousel .carousel-indicators{
+    bottom: -30px;
+}
+
+/* contact */
+.contact{
+    
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 60px;
+    
+}
+
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: salmon;
+    
+}
+.contact .details h5, .contact .details p{
+    text-align: center;
+    margin-top: 20px;
+}
+.contact .info{
+    text-align: center;
+}
+.contact .profile-picture{
+    justify-content: center;
+}
+
+.contact .picture{
+    display: flex;
+    justify-content: center;
+}
+.info-container{
+    justify-content: center;
+}
+
+/* fix */
+.testimonial-tengah{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 100px;
+    /* fix */
+    width: 100%;
+}
+
+.footer p{
+    color: #ACACAC;
+    font-size: 18px;
+    
+}
+
+
+/* akhir navbar */
+/* Utility */
+    .tombol{
+        text-transform: uppercase;
+        border-radius: 40px;
+    }
+
+
+
+
+    /* tablet */
+    /* @media (min-width: 991px) { 
+        .experience .carousel img{
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+     } */
+    
+@media (min-width: 767.98px) {
+    .experience .carousel img{
+        width: 530px;
+        height: 290px;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+    .experience .carousel-caption{
+        margin-bottom: 30px;
+    }
+    .experience .carousel{
+       width: 530px;
+       height: 290px;
+        margin: 5px auto;
+        padding: 5px
+    }
+ }
+   
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+ 
+    .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+    }
+    
+    
+
+
+    .nav-link:hover::after{
+        content : '';
+        display: block;
+        border-bottom: 3px solid #0863DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -75px;
+        padding-top: 75px;
+        height: 640px; 
+    }
+    .jumbotron .container{
+        position: relative;
+        z-index: 1;
+        top: 0px;
+    }
+    .jumbotron .display-4{
+        font-size: 65px;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .jumbotron.display-4{
+        font-size: 62px;
+    }
+    .workingspace h3{
+        text-align: left;
+    }
+    .workingspace p{
+        text-align: left;
+    }
+
+    .experience .carousel{
+        width: 100%;
+        height: 500px;
+        margin: 5px auto;
+    }
+    .experience .carousel img{
+        width: 100%;
+        height: 500px;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+    /* testimonial */
+    
+    
+    .info-tengah{
+        /* fix */
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        /* fix */
+        margin-left: 0; 
+        
+    }
+    
+    .testimonial h5{
+        font-style: 32;
+    }
+    /* .about .profile{
+        text-align: right;
+        margin-top: 120px;
+
+    }
+} */
+
+        .experience .carousel{
+            width: 900px;
+        }
+        .carousel .carousel-caption{
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            width: 600px;
+            height: 121px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+            
+            
+        
+        }
+        .carousel-content{
+            padding: 5px
+        }
+        .experience .carousel a{
+            color: white;
+            font-size: 18px;
+            margin-top: -10px;
+        }
+        .experience .carousel-caption h5{
+            font-size: 25px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .contact .details{
+        order: 0;
+        
+        }
+        .contact .profile-picture{
+        order: 1;
+        }
+        .contact .details{
+            /* text-align: center; */
+            justify-content: right;
+            
+        }
+        .contact .profile-picture-container{
+            justify-content: left;
+        }
+        .contact .details h5, .contact .details p{
+            text-align: right;
+            margin-top: 20px;
+        }
+        .contact .profile-picture{
+            justify-content: left;
+        }
+        
+        .contact .row{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .contact .profile-picture{
+            margin-left: 10px;
+
+
+        }
+        .contact .profile-picture-container{
+            width: 100%
+        }
+        .contact .details{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        .contact .info{
+            text-align: right;
+        }
+        .contact .profile-picture{
+            justify-content: start;
+        }
+        
+        .contact .picture{
+            display: flex;
+            justify-content: start;
+        }
+        .info-container{
+            justify-content: flex-end;
+         }
+         .info-container .info {
+            text-align: right;
+         }
+
+    }
